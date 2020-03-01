@@ -1,45 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Site title</title>
-    <meta name="description" content="Description" />
 
-    <!-- Title -->
-    <meta property="og:title" content="" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
-    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta property="og:url" content="" />
-    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Site title</title>
+  <meta name="description" content="Description" />
 
-    <link rel="manifest" href="manifest.json" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link
-      rel="apple-touch-icon"
-      sizes="192x192"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+  <!-- Title -->
+  <meta property="og:title" content="" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="" />
+  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+  <meta property="og:url" content="" />
+  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+  <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
 
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<header>
 
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <h1>Hello world - with simple PWA support!</h1>
-    <section>
-      <ul class="list list--js">
+</header>
 
-      </ul>
+<body>
+  <main>
+    <section class="about">
+      <img src="assets/img/avatar.png" alt="my_photo">
+      <p>Hey there! 👋 My name is Asia and I’m an aspiring Frontend developer and and a fan of cooking. </p>
+      <p>You might be interested in checking the list of my skills. Don’t forget to have a glimpse at my projects.
+        Currently I’m looking for a new challenges so if you have one - contact me 😊</p>
+      <p>joannajerz1@gmail.com</p>
     </section>
+    <section class="skills">
+      <h2>My Skills</h2>
+      <section class="skills-list">
+        <h3>Working knowledge</h3>
+        <ul>
+          <li>Semantic HTML5</li>
+          <li>Flexbox</li>
+          <li>Markdown</li>
+          <li>JS: Local storage</li>
+          <li>CSS grid</li>
+          <li>Figma</li>
+          <li>Forms</li>
+          <li>JS: DOM manipulations</li>
+          <li>SASS</li>
+        </ul>
+      </section>
+      <section class="skills-list">
+        <h3>Know something about</h3>
+        <ul>
+          <li>JavaScript ES6+ features</li>
+          <li>CSS animations</li>
+          <li>Working with API</li>
+          <li>NPM Scripts</li>
+          <li>Progressive web apps</li>
+          <li>Git</li>
+          <li>Accessibility</li>
+        </ul>
+      </section>
+      <section class="skills_list">
+        <h3>Want to learn</h3>
+        <ul>
+          <li>React JS</li>
+          <li>Node.JS</li>
+          <li>Electron</li>
+          <li>Server side rendering</li>
+          <li>Typescript</li>
+          <li>Gatsby</li>
+          <li>Websockets</li>
 
-    <script src="js/main.js"></script>
-  </body>
+        </ul>
+      </section>
+    </section>
+    <section class="github">
+      <h2>Recent projects</h2>
+      <p>I started my frontend developer path in 2003. Since then, I’ve built some projects. Here’s the list of the
+        things I’ve done so far.</p>
+      <ul class="list list--js">
+        <li>
+          <img src="" alt="">
+          <h3>Project name</h3>
+          <p>Project description</p>
+          <div class="github-footer">
+            <a href="#" title="Demo: project">Demo</a>
+            <a href="#" title="Git: project">Git</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="list list--js">
+          <li>
+            <img src="" alt="">
+            <h3>Project name</h3>
+            <p>Project description</p>
+            <div class="github-footer">
+              <a href="#" title="Demo: project">Demo</a>
+              <a href="#" title="Git: project">Git</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="list list--js">
+            <li>
+              <img src="" alt="">
+              <h3>Project name</h3>
+              <p>Project description</p>
+              <div class="github-footer">
+                <a href="#" title="Demo: project">Demo</a>
+                <a href="#" title="Git: project">Git</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="list list--js">
+              <li>
+                <img src="" alt="">
+                <h3>Project name</h3>
+                <p>Project description</p>
+                <div class="github-footer">
+                  <a href="#" title="Demo: project">Demo</a>
+                  <a href="#" title="Git: project">Git</a>
+                </div>
+              </li>
+            </ul>
+    </section>
+    <footer class="contact">
+      <h2>Contact me</h2>
+      <p>I’m open for new opportunities. If you have one for me we should talk!</p>
+      <a href="#" title="Facebook">Facebook</a>
+      <a href="#" title="Github">Git</a>
+      <a href="#" title="Instagram">Instagram</a>
+
+      <p>joannajerz1@gmail.com</p>
+
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>

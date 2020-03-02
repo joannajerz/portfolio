@@ -1,0 +1,76 @@
+@import "_normalize";
+@import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap&subset=latin-ext');
+
+.skills{
+    padding-left: 128px;
+    padding-right: 125px;
+
+    &-title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 48px;
+        border-bottom: #CBD2D9 solid 0.5px;
+        margin:0px;
+    }&-list{
+        padding-top: 128px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        &__list{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 24px;
+
+        }
+        &__title{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 44px;
+            margin:0px;
+            width: 379px;
+            &--green::before {
+                content: '';
+                width: 80px;
+                height: 4px;
+                background: #06C847;
+                border-radius: 8px;
+                display: block;
+                margin-bottom: 24px;
+            }
+            &--violet::before {
+                content: '';
+                width: 80px;
+                height: 4px;
+                background: #653CAD;
+                border-radius: 8px;
+                display: block;
+                margin-bottom: 24px;
+            }
+            &--blue::before {
+                content: '';
+                width: 80px;
+                height: 4px;
+                background: #2251CC;
+                border-radius: 8px;
+                display: block;
+                margin-bottom: 24px;
+            }
+        }&__item{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            margin-bottom: 24px;
+            margin-top:0px;
+            line-height: 40px;
+            &--green{
+                list-style-image:url('/assets/img/check-circle.svg');   
+            } &--violet{
+                list-style-image:url('/assets/img/check-violet.svg');   
+            } &--blue{
+                list-style-image:url('/assets/img/check-blue.svg');   
+            }
+        }
+    }
+}

@@ -18,7 +18,39 @@ body {
   font-family: 'Poppins';
   border:16px solid $big-stone;
 }
+.about{
+  padding-left: 128px;
+  padding-right: 538px;
+  padding-top: 128px;
+  padding-bottom: 200px;
+ &-photo{
+   width: 120px;
+  height: 120px;
+ }&-position{
+   padding-top: 32px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  padding-bottom: 16px;
+ }&-description{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 36px;
+  padding-bottom: 60px;
+ }&-navigation{
+  text-decoration-line: underline;
+  color: $azure-radiance;
+ }&-email{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: $azure-radiance;
+ }
 
+}
 .list{
   display:block;
   list-style-type: none;

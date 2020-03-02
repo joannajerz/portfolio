@@ -322,6 +322,38 @@ body {
   font-family: 'Poppins';
   border: 16px solid #171F3F; }
 
+.about {
+  padding-left: 128px;
+  padding-right: 538px;
+  padding-top: 128px;
+  padding-bottom: 200px; }
+  .about-photo {
+    width: 120px;
+    height: 120px; }
+  .about-position {
+    padding-top: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    padding-bottom: 16px; }
+  .about-description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    padding-bottom: 60px; }
+  .about-navigation {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #0593FB; }
+  .about-email {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #0593FB; }
+
 .list {
   display: block;
   list-style-type: none;

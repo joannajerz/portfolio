@@ -4,14 +4,14 @@
 
 .skills{
     padding-left: 128px;
-    padding-right: 125px;
+    padding-right: 128px;
 
     &-title{
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
         line-height: 48px;
-        border-bottom: #CBD2D9 solid 0.5px;
+        border-bottom: $gray solid 0.5px;
         margin:0px;
     }&-list{
         padding-top: 128px;
@@ -21,7 +21,6 @@
             display:grid;
             grid-template-columns: 1fr 1fr;
             column-gap: 24px;
-
         }
         &__title{
             font-style: normal;
@@ -34,7 +33,7 @@
                 content: '';
                 width: 80px;
                 height: 4px;
-                background: #06C847;
+                background: $green;
                 border-radius: 8px;
                 display: block;
                 margin-bottom: 24px;
@@ -43,7 +42,7 @@
                 content: '';
                 width: 80px;
                 height: 4px;
-                background: #653CAD;
+                background: $violet;
                 border-radius: 8px;
                 display: block;
                 margin-bottom: 24px;
@@ -52,12 +51,12 @@
                 content: '';
                 width: 80px;
                 height: 4px;
-                background: #2251CC;
+                background: $blue;
                 border-radius: 8px;
                 display: block;
                 margin-bottom: 24px;
             }
-        }&__item{
+         }&__item{
             font-style: normal;
             font-weight: normal;
             font-size: 18px;

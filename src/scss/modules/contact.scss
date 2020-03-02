@@ -1,0 +1,37 @@
+@import "_normalize";
+@import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap&subset=latin-ext');
+
+.contact{
+    background: $big-stone;
+    padding-left: 128px;
+    height: 544px;
+
+    &-header{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 44px;
+        color: white;
+        padding-top:138px;
+        margin:0px;
+        padding-bottom:16px;
+    }&-description{
+        color:white;
+        font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    width: 580px;
+    } &-link{
+        padding-right:24px;
+        padding-bottom:48px;
+    } &-email{
+        padding-bottom:128px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color:$azure-radiance
+    }
+}

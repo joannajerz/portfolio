@@ -1,0 +1,98 @@
+@import "_normalize";
+@import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap&subset=latin-ext');
+
+
+.github{
+    background: $catskill-white;
+    padding-left: 128px;
+    padding-top: 128px;
+    padding-right:128px;
+    margin:0px;
+    padding-bottom: 128px;
+    &-title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 48px;
+        }
+    &-description{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 36px;
+        color: $dark-gray;
+        max-width: 580px;
+
+        }
+}
+.github-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 24px;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+border-radius: 8px;
+    &__cointainer{
+        background: white;
+    }
+    &__icon{
+        padding-bottom: 16px;
+        padding-left:48px;
+        padding-top: 48px;
+    } &__title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 36px;
+        padding-top:0px;
+        padding-bottom:8px;
+        padding-left:48px;
+        margin-top:0px;
+        margin-bottom:0px;
+    }&__description{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color:$dark-gray;
+        padding-bottom: 48px;
+        padding-left:48px;
+        padding-top:0px;
+        margin-top:0px;
+        margin-bottom:0px;
+        
+    }&__footer{
+        height: 64px;
+        background: #F5F7FA;
+    }
+}
+.github-list__footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.github-footer__demo{
+    color:$azure-radiance;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+margin-right:24px;
+margin-left:8px;
+
+
+}
+.github-footer_git{
+    color:$azure-radiance;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+margin-right:48px;
+margin-left:8px;
+
+}

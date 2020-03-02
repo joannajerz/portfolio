@@ -1760,6 +1760,14 @@ template {
     padding-top: 138px;
     margin: 0px;
     padding-bottom: 16px; }
+    .contact-header::before {
+      content: '';
+      width: 80px;
+      height: 4px;
+      background: #0593FB;
+      border-radius: 8px;
+      display: block;
+      margin-bottom: 24px; }
   .contact-description {
     color: white;
     font-style: normal;

@@ -16,7 +16,15 @@
         padding-top:138px;
         margin:0px;
         padding-bottom:16px;
-    }&-description{
+        &::before {
+            content: '';
+            width: 80px;
+            height: 4px;
+            background: $azure-radiance;
+            border-radius: 8px;
+            display: block;
+            margin-bottom: 24px;
+    }}&-description{
         color:white;
         font-style: normal;
     font-weight: 300;
@@ -32,6 +40,6 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 32px;
-        color:$azure-radiance
+        color:$azure-radiance;
     }
 }

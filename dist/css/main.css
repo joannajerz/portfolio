@@ -1030,11 +1030,11 @@ template {
       margin-top: 0px;
       line-height: 40px; }
       .skills-list__item--green {
-        list-style-image: url("/assets/img/check-circle.svg"); }
+        list-style-image: url("../assets/img/check-circle.svg"); }
       .skills-list__item--violet {
-        list-style-image: url("/assets/img/check-violet.svg"); }
+        list-style-image: url("../assets/img/check-violet.svg"); }
       .skills-list__item--blue {
-        list-style-image: url("/assets/img/check-blue.svg"); }
+        list-style-image: url("../assets/img/check-blue.svg"); }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -1368,8 +1368,8 @@ template {
 .github-list {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   -webkit-column-gap: 24px;
      -moz-column-gap: 24px;
           column-gap: 24px;
@@ -1843,11 +1843,11 @@ template {
         font-size: 14px;
         line-height: 36px; }
         .skills-list__item--green {
-          list-style-image: url("/assets/img/icon_green_small.svg"); }
+          list-style-image: url("../assets/img/icon_green_small.svg"); }
         .skills-list__item--violet {
-          list-style-image: url("/assets/img/icon_violet_small.svg"); }
+          list-style-image: url("../assets/img/icon_violet_small.svg"); }
         .skills-list__item--blue {
-          list-style-image: url("/assets/img/icon_blue_small.svg"); }
+          list-style-image: url("../assets/img/icon_blue_small.svg"); }
   .github {
     padding-left: 16px;
     padding-right: 16px;

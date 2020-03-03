@@ -636,14 +636,16 @@ template {
     font-weight: 600;
     font-size: 40px;
     line-height: 56px;
-    padding-bottom: 16px; }
+    padding-bottom: 16px;
+    max-width: 781px; }
   .about-description {
     color: #52606D;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 36px;
-    padding-bottom: 60px; }
+    padding-bottom: 60px;
+    max-width: 631px; }
   .about-navigation {
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline;
@@ -1374,10 +1376,17 @@ template {
   row-gap: 24px;
   list-style-type: none;
   margin: 0px;
-  padding: 0px;
-  -webkit-box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
-          box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
-  border-radius: 8px; }
+  padding: 0px; }
+  .github-list__item {
+    -webkit-box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+            box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+    border-radius: 8px; }
+  .github-list__element {
+    width: 2px;
+    height: 32px;
+    background: #CBD2D9;
+    margin-left: 24px;
+    margin-right: 24px; }
   .github-list__cointainer {
     background: white; }
   .github-list__icon {
@@ -1426,7 +1435,6 @@ template {
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
-  margin-right: 24px;
   margin-left: 8px; }
 
 .github-footer_git {
@@ -1435,8 +1443,13 @@ template {
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
-  margin-right: 48px;
-  margin-left: 8px; }
+  margin-left: 8px;
+  margin-right: 48px; }
+
+.github-footer_icon {
+  padding-top: 14px; }
+  .github-footer_icon--git {
+    padding-top: 16px; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -1750,7 +1763,8 @@ template {
 .contact {
   background: #171F3F;
   padding-left: 128px;
-  height: 544px; }
+  height: 544px;
+  margin-bottom: 0px; }
   .contact-header {
     font-style: normal;
     font-weight: 600;
@@ -1774,7 +1788,7 @@ template {
     font-weight: 300;
     font-size: 20px;
     line-height: 36px;
-    width: 580px; }
+    max-width: 580px; }
   .contact-link {
     padding-right: 24px;
     padding-bottom: 48px; }
@@ -1786,9 +1800,101 @@ template {
     line-height: 32px;
     color: #0593FB; }
 
+@media (max-width: 1200px) {
+  .about {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 120px; }
+    .about-position {
+      font-size: 26px;
+      padding-top: 16px;
+      line-height: 36px;
+      max-width: 100%; }
+    .about-description {
+      font-size: 14px;
+      padding-right: 0px;
+      max-width: 100%;
+      line-height: 26px; }
+    .about-email {
+      font-size: 14px;
+      line-height: 24px; }
+  .skills {
+    padding-left: 16px;
+    padding-right: 16px; }
+    .skills-title {
+      font-size: 24px;
+      line-height: 32px; }
+    .skills-list {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      padding-top: 48px; }
+      .skills-list__title {
+        margin-bottom: 16px;
+        font-size: 22px;
+        line-height: 32px; }
+      .skills-list__item {
+        font-size: 20px;
+        line-height: 36px; }
+      .skills-list__list {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        margin-left: 32px; }
+      .skills-list__item {
+        font-size: 14px;
+        line-height: 36px; }
+        .skills-list__item--green {
+          list-style-image: url("/assets/img/icon_green_small.svg"); }
+        .skills-list__item--violet {
+          list-style-image: url("/assets/img/icon_violet_small.svg"); }
+        .skills-list__item--blue {
+          list-style-image: url("/assets/img/icon_blue_small.svg"); }
+  .github {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 80px; }
+    .github-list {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr; }
+      .github-list__title {
+        font-size: 16px;
+        line-height: 24px; }
+      .github-list__description {
+        font-size: 14px;
+        line-height: 26px; }
+    .github-title {
+      font-size: 24px;
+      line-height: 32px;
+      padding-bottom: 8px;
+      text-align: center; }
+    .github-description {
+      font-size: 14px;
+      line-height: 26px;
+      text-align: center;
+      padding-bottom: 32px;
+      max-width: 100%; }
+  .contact {
+    padding-left: 16px;
+    padding-right: 16px; }
+    .contact-header {
+      font-size: 24px;
+      line-height: 32px; }
+    .contact-description {
+      font-size: 18px;
+      line-height: 26px;
+      padding-bottom: 24px; }
+    .contact-email {
+      font-size: 14px;
+      line-height: 24px;
+      padding-bottom: 128px; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  vertical-align: top; }
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -1800,6 +1906,9 @@ body {
   font-family: 'Poppins';
   border: 16px solid #171F3F;
   scroll-behavior: smooth; }
+  @media (max-width: 1200px) {
+    body {
+      border: none; } }
 
 .list {
   display: block;

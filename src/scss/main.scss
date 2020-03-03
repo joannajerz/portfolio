@@ -5,9 +5,13 @@
 @import"modules/skills.scss";
 @import"modules/github.scss";
 @import"modules/contact.scss";
+@import"modules/media.scss";
+
+* {margin:0; padding:0;}
 
 html {
   box-sizing: border-box;
+  vertical-align: top;
 
 }
 
@@ -21,8 +25,10 @@ body {
   font-family: 'Poppins';
   border:16px solid $big-stone;
   scroll-behavior: smooth;
+  @media (max-width: 1200px){
+    border:none;
 
-}
+} }
 
 .list{
   display:block;

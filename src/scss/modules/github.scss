@@ -34,8 +34,17 @@
     list-style-type:none;
     margin:0px;
     padding:0px;
+    &__item{
     box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
-border-radius: 8px;
+    border-radius: 8px;
+    }
+    &__element{
+        width: 2px;
+        height: 32px;
+        background: #CBD2D9;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
     &__cointainer{
         background: white;
     }
@@ -81,7 +90,6 @@ border-radius: 8px;
 font-weight: 500;
 font-size: 18px;
 line-height: 32px;
-margin-right:24px;
 margin-left:8px;
 
 
@@ -92,7 +100,14 @@ margin-left:8px;
 font-weight: 500;
 font-size: 18px;
 line-height: 32px;
-margin-right:48px;
 margin-left:8px;
+margin-right: 48px;
 
+}
+.github-footer_icon{
+    padding-top:14px;
+    &--git{
+        padding-top:16px;
+
+    }
 }

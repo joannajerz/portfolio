@@ -1,0 +1,109 @@
+@media (max-width: 1200px){
+.about{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 120px;
+    &-position{
+        font-size: 26px;
+        padding-top:16px;
+        line-height: 36px;
+        max-width:100%;
+
+    }&-description{
+        font-size: 14px;
+        padding-right:0px;
+        max-width: 100%;
+
+
+line-height: 26px;
+    } &-email{
+        font-size: 14px;
+line-height: 24px;
+    }
+}
+.skills{
+    padding-left: 16px;
+    padding-right: 16px;
+    &-title{
+        font-size: 24px;
+line-height: 32px;
+    }
+    &-list{
+        grid-template-columns: 1fr;
+        padding-top: 48px;
+        &__title{
+            margin-bottom:16px;
+            font-size: 22px;
+line-height: 32px;
+        }&__item{
+            font-size: 20px;
+line-height: 36px;
+        }
+        &__list{
+            grid-template-columns: 1fr;
+            margin-left: 32px;
+        } &__item{
+            font-size: 14px;
+line-height: 36px;
+&--green{
+    list-style-image:url('/assets/img/icon_green_small.svg');   
+} &--violet{
+    list-style-image:url('/assets/img/icon_violet_small.svg');   
+} &--blue{
+    list-style-image:url('/assets/img/icon_blue_small.svg');   
+}
+        }
+    }
+}
+.github{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 80px;    
+
+    &-list{
+        grid-template-columns: 1fr;
+    &__title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__description{
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    } &-title{
+        font-size: 24px;
+        line-height: 32px;
+        padding-bottom: 8px;
+        text-align:center;
+
+
+    }&-description{
+        font-size: 14px;
+        line-height: 26px;
+        text-align:center;
+        padding-bottom:32px;
+        max-width: 100%;
+    }
+}
+.contact{
+    padding-left: 16px;
+    padding-right: 16px;
+    &-header{
+        font-size: 24px;
+line-height: 32px;
+    }
+    &-description{
+        font-size: 18px;
+line-height: 26px;
+padding-bottom:24px;
+    }&-email{
+        font-size: 14px;
+line-height: 24px;
+padding-bottom:128px;
+
+    }
+
+}
+
+}

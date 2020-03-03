@@ -1843,11 +1843,11 @@ template {
         font-size: 14px;
         line-height: 36px; }
         .skills-list__item--green {
-          list-style-image: url("../assets/img/icon_green_small.svg"); }
+          list-style-image: url("portfolio/assets/img/icon_green_small.svg"); }
         .skills-list__item--violet {
-          list-style-image: url("../assets/img/icon_violet_small.svg"); }
+          list-style-image: url("portfolio/assets/img/icon_violet_small.svg"); }
         .skills-list__item--blue {
-          list-style-image: url("../assets/img/icon_blue_small.svg"); }
+          list-style-image: url("portfolio/assets/img/icon_blue_small.svg"); }
   .github {
     padding-left: 16px;
     padding-right: 16px;

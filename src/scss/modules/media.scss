@@ -42,8 +42,11 @@ line-height: 36px;
         &__list{
             grid-template-columns: 1fr;
             margin-left: 32px;
+            
         } &__item{
             font-size: 14px;
+            margin-bottom: 6px;
+
 line-height: 36px;
 &--green{
     list-style-image:url('../assets/img/icon-gsmall.svg');   

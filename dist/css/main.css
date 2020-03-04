@@ -1841,6 +1841,7 @@ template {
         margin-left: 32px; }
       .skills-list__item {
         font-size: 14px;
+        margin-bottom: 6px;
         line-height: 36px; }
         .skills-list__item--green {
           list-style-image: url("../assets/img/icon-gsmall.svg"); }

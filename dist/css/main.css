@@ -1345,6 +1345,66 @@ template {
 [hidden] {
   display: none; }
 
+.feedy {
+  position: relative;
+  width: 100%; }
+
+.feedy-grid {
+  display: -ms-grid;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-grid-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr;
+  -webkit-column-gap: 24px;
+     -moz-column-gap: 24px;
+          column-gap: 24px; }
+
+.feedy-image {
+  max-width: 100%;
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  -o-transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+  -webkit-box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+          box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+  border-radius: 8px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .feedy-image:hover {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05); }
+
+.feedy-description {
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
+.feedy:hover .feedy-image {
+  opacity: 0.3; }
+
+.feedy:hover .feedy-description {
+  opacity: 1; }
+
 .github {
   background: #F5F7FA;
   padding-left: 128px;
@@ -1363,7 +1423,8 @@ template {
     font-size: 20px;
     line-height: 36px;
     color: #52606D;
-    max-width: 580px; }
+    max-width: 580px;
+    margin-bottom: 34px; }
 
 .github-list {
   display: -ms-grid;
@@ -1378,9 +1439,11 @@ template {
   margin: 0px;
   padding: 0px; }
   .github-list__item {
+    margin-top: 50px;
     -webkit-box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
             box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
-    border-radius: 8px; }
+    border-radius: 8px;
+    max-height: 405px; }
   .github-list__element {
     width: 2px;
     height: 32px;
@@ -1406,14 +1469,17 @@ template {
   .github-list__description {
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 15px;
+    text-align: justify;
     line-height: 32px;
     color: #52606D;
     padding-bottom: 48px;
     padding-left: 48px;
+    padding-right: 48px;
     padding-top: 0px;
     margin-top: 0px;
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    height: 100px; }
   .github-list__footer {
     height: 64px;
     background: #F5F7FA; }
@@ -1450,6 +1516,9 @@ template {
   padding-top: 14px; }
   .github-footer_icon--git {
     padding-top: 16px; }
+
+.github-list__description-feedy {
+  height: 180px !important; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -1850,6 +1919,9 @@ template {
           list-style-image: url("../assets/img/icon-vsmall.svg"); }
         .skills-list__item--blue {
           list-style-image: url("../assets/img/icon-bsmall.svg"); }
+  .feedy-grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; }
   .github {
     padding-left: 16px;
     padding-right: 16px;
@@ -1903,6 +1975,7 @@ html {
           box-sizing: inherit; }
 
 body {
+  width: 100%;
   color: #171F3F;
   background: white;
   font-family: 'Poppins';

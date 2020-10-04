@@ -1968,19 +1968,28 @@ template {
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  vertical-align: top; }
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
 body {
-  width: 100%;
   color: #171F3F;
   background: white;
   font-family: 'Poppins';
   border: 16px solid #171F3F;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
   @media (max-width: 1200px) {
     body {
       border: none; } }

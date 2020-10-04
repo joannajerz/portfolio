@@ -25,7 +25,7 @@
   <main class="main">
     <section class="about">
       <img src="assets/img/avatar.png" alt="my_photo" class="about-photo">
-      <h1 class="about-position">Hey there! 👋 My name is Asia and I’m an aspiring Frontend developer and a fan of cooking. </h1>
+      <h1 class="about-position">Hey there! 👋 My name is Asia and I’m an aspiring Frontend developer! </h1>
       <p class= "about-description">You might be interested in checking the list of <a href="#skills" title="skills-navigation" class="about-navigation">my skills</a>. Don’t forget to have a glimpse at <a href="#github" title="project-navigation" class="about-navigation">my projects</a>.
         Currently I’m looking for a new challenges so if you have one - <a href="#contact" title="contact-navigation" class="about-navigation" >contact me </a>😊</p>
       <a href="mailto:joannajerz1@gmail.com" title="email" class="about-email">joannajerz1@gmail.com</a>
@@ -35,6 +35,8 @@
       <section class="skills-list">
         <h3 class="skills-list__title skills-list__title--green">Working knowledge</h3>
         <ul class="skills-list__list">
+            <li class="skills-list__item skills-list__item--green">React JS (hooks)</li>
+            <li class="skills-list__item skills-list__item--green">Redux</li>
           <li class="skills-list__item skills-list__item--green">Semantic HTML5</li>
           <li class="skills-list__item skills-list__item--green">Flexbox</li>
           <li class="skills-list__item skills-list__item--green">Markdown</li>
@@ -45,38 +47,81 @@
           <li class="skills-list__item skills-list__item--green">JS: DOM manipulations</li>
           <li class="skills-list__item skills-list__item--green">SASS</li>
           <li class="skills-list__item skills-list__item--green">BEM</li>
+          <li class="skills-list__item skills-list__item--green">Working with API</li>
+          <li class="skills-list__item skills-list__item--green">Ant Design</li>
+          <li class="skills-list__item skills-list__item--green">SVG</li>
         </ul>
       </section>
       <section class="skills-list">
         <h3 class="skills-list__title skills-list__title--violet">Know something about</h3>
         <ul class="skills-list__list">
+            <li class="skills-list__item skills-list__item--violet">Typescript</li>
+            <li class="skills-list__item skills-list__item--violet">Routing</li>
+            <li class="skills-list__item skills-list__item--violet">Webpack</li>
+            <li class="skills-list__item skills-list__item--violet">Continous integration</li>
+            <li class="skills-list__item skills-list__item--violet">Docker</li>
           <li class="skills-list__item skills-list__item--violet">JavaScript ES6+ features</li>
-          <li class="skills-list__item skills-list__item--violet">CSS animations</li>
-          <li class="skills-list__item skills-list__item--violet">Working with API</li>
-          <li class="skills-list__item skills-list__item--violet">NPM Scripts</li>
+          <li class="skills-list__item skills-list__item--violet">NPM/ Yarn Scripts</li>
           <li class="skills-list__item skills-list__item--violet">Progressive web apps</li>
-          <li class="skills-list__item skills-list__item--violet"> Git</li>
+          <li class="skills-list__item skills-list__item--violet">Git</li>
           <li class="skills-list__item skills-list__item--violet">Accessibility</li>
+          <li class="skills-list__item skills-list__item--violet">Code review</li>
+          <li class="skills-list__item skills-list__item--violet">Styled Compontents</li>
+          <li class="skills-list__item skills-list__item--violet">EsLint (airbnb)</li>
+          <li class="skills-list__item skills-list__item--violet">Dotenv</li>
+          <li class="skills-list__item skills-list__item--violet">Jest</li>
         </ul>
       </section>
       <section class="skills-list">
         <h3 class="skills-list__title skills-list__title--blue">Want to learn</h3>
         <ul class="skills-list__list">
-          <li class="skills-list__item skills-list__item--blue">React JS</li>
+            <li class="skills-list__item skills-list__item--blue">Redux Saga/Redux Thunk</li>
+            <li class="skills-list__item skills-list__item--blue">React Query</li>
+            <li class="skills-list__item skills-list__item--blue">SEO</li>
+            <li class="skills-list__item skills-list__item--blue">Authorization</li>
+          <li class="skills-list__item skills-list__item--blue">Vue JS</li>
           <li class="skills-list__item skills-list__item--blue">Node.JS</li>
-          <li class="skills-list__item skills-list__item--blue">Electron</li>
-          <li class="skills-list__item skills-list__item--blue">Server side rendering</li>
-          <li class="skills-list__item skills-list__item--blue">Typescript</li>
-          <li class="skills-list__item skills-list__item--blue">Gatsby</li>
+          <li class="skills-list__item skills-list__item--blue">GraphQL</li>
           <li class="skills-list__item skills-list__item--blue">Websockets</li>
 
         </ul>
       </section>
     </section>
     <section class="github" id="github">
-      <h2 class="github-title">Recent projects</h2>
-      <p class="github-description"> I started my frontend developer path in 2019. Since then, I’ve built some projects. Here’s the list of the
+      <h2 class="github-title">My projects</h2>
+      <p class="github-description"> I started my frontend developer path in december 2019. Since then, I’ve built some projects. Here’s the list of the
         things I’ve done so far.</p>
+      <h4 class="github-title">Main project</h4>
+      <div class="feedy-grid">
+              <div class="github-list__item">
+                  <div class="github-list__cointainer">
+                  <img src="assets/img/github.svg" alt="github icon" class="github-list__icon">
+                  <h3 class="github-list__title">Feedy.pl</h3>
+                  <p class="github-list__description github-list__description-feedy">
+                      I created the frontend of the food application. You can search for recipes and generate a shopping list. <br> React.js, Redux, SASS, BEM, React-Router, Webpack</p>
+                  </div>
+                  <div class="github-list__footer">
+                    <img src="assets/img/demo-icon.svg" alt="demo icon" class="github-footer__icon">
+                    <a href="https://www.feedy.pl/" target="_blank" title="Demo: project" class="github-footer__demo">Demo</a>
+                    <div class="github-list__element"></div>
+                    <img src="assets/img/git-icon.svg" alt="git icon" class="github-footer__icon--git">
+                    <a target="_blank" href="https://gitlab.com/project-hungry/frontend-app" title="Git: project" class="github-footer_git">Git</a>
+                  </div>
+                </div>
+      <div class="feedy">
+          <img src="assets/img/feedy.png" alt="feedy.pl project" class="feedy-image">
+          <div class="feedy-description">
+          <a target="_blank" href="https://www.feedy.pl/" class="github-footer__demo">Feedy.pl</a>
+          <p class="github-list__description">Don't waste your time and food anymore!
+
+            </p>
+        </div>
+      </div>
+    </div>
+      <h4 class="github-title">Others project</h4>
+      <p class="github-description"> 
+           I have created several smaller projects, since I am learning programming.</p>
+ 
       <ul class="github-list github-list--js">
             </ul>
     </section>

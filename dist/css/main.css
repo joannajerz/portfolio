@@ -1372,8 +1372,7 @@ template {
   border-radius: 8px;
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
+  max-height: 700px;
   -webkit-transition: .5s ease;
   -o-transition: .5s ease;
   transition: .5s ease;
@@ -1423,8 +1422,20 @@ template {
     font-size: 20px;
     line-height: 36px;
     color: #52606D;
-    max-width: 580px;
+    max-height: 580px;
     margin-bottom: 34px; }
+
+.feedy-list__item {
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+          box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+  border-radius: 8px;
+  max-height: 700px;
+  margin-bottom: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 64px;
+  grid-template-rows: 1fr 64px; }
 
 .github-list {
   display: -ms-grid;
@@ -1440,10 +1451,10 @@ template {
   padding: 0px; }
   .github-list__item {
     margin-top: 50px;
+    max-width: 90%;
     -webkit-box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
             box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
-    border-radius: 8px;
-    max-height: 405px; }
+    border-radius: 8px; }
   .github-list__element {
     width: 2px;
     height: 32px;
@@ -1451,20 +1462,21 @@ template {
     margin-left: 24px;
     margin-right: 24px; }
   .github-list__cointainer {
-    background: white; }
+    background: white;
+    min-height: 250px; }
   .github-list__icon {
-    padding-bottom: 16px;
+    padding-bottom: 5px;
     padding-left: 48px;
-    padding-top: 48px; }
+    padding-top: 25px; }
   .github-list__title {
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 36px;
     padding-top: 0px;
     padding-bottom: 8px;
     padding-left: 48px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 0px; }
   .github-list__description {
     font-style: normal;
@@ -1477,12 +1489,13 @@ template {
     padding-left: 48px;
     padding-right: 48px;
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 0px;
     height: 100px; }
   .github-list__footer {
     height: 64px;
-    background: #F5F7FA; }
+    background: #F5F7FA;
+    bottom: 0px; }
 
 .github-list__footer {
   display: -webkit-box;
@@ -1518,7 +1531,7 @@ template {
     padding-top: 16px; }
 
 .github-list__description-feedy {
-  height: 180px !important; }
+  margin-top: 25px; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document

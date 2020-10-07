@@ -1845,7 +1845,7 @@ template {
 .contact {
   background: #171F3F;
   padding-left: 128px;
-  height: 544px;
+  height: 614px;
   margin-bottom: 0px; }
   .contact-header {
     font-style: normal;
@@ -1870,12 +1870,19 @@ template {
     font-weight: 300;
     font-size: 20px;
     line-height: 36px;
-    max-width: 580px; }
+    max-width: 580px;
+    padding-bottom: 24px; }
   .contact-link {
     padding-right: 24px;
     padding-bottom: 48px; }
   .contact-email {
     padding-bottom: 128px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #0593FB; }
+  .contact-number {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1991,6 +1998,9 @@ html {
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
+
+.main {
+  height: 100%; }
 
 body {
   color: #171F3F;

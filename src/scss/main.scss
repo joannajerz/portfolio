@@ -22,6 +22,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.main{
+  height: 100%;
+}
 
 body {
   color: $big-stone;

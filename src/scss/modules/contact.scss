@@ -5,7 +5,7 @@
 .contact{
     background: $big-stone;
     padding-left: 128px;
-  height: 544px;
+  height: 614px;
     margin-bottom:0px;
 
     &-header{
@@ -32,11 +32,18 @@
     font-size: 20px;
     line-height: 36px;
     max-width: 580px;
+    padding-bottom: 24px;
     } &-link{
         padding-right:24px;
         padding-bottom:48px;
     } &-email{
         padding-bottom:128px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color:$azure-radiance;
+    } &-number{
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
